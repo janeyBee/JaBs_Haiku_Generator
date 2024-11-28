@@ -1,0 +1,71 @@
+body {
+  background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/151/619/original/cherryblossom.jpg?1732797226');
+  max-width: 600px;
+}
+
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+header {
+  font-family: 'Yuji Mai', serif;
+  color: rgba(4, 4, 4, 0.9);
+  font-weight: 800;
+  font-size: 24px;
+  margin: 30px;
+  text-align: center;
+}
+
+form {
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: rgba(34 33 66 0.5);
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px rgba(34 33 66 0.5);
+  line-height: 1.5;
+  font-size: 16px;
+  color: #040404;
+  border-radius: 50px;
+  width: 80%;
+}
+
+.submit_button {
+  padding: 14px 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: 10px;
+  border: none;
+  border-radius: 50px;
+  width: 150px;
+  background-color: #efa0c3;
+  color: #fff;
+}
+
+.haiku {
+  font-size: 16px;
+  padding: 20px;
+  line-height: 1.5;
+  margin-left: 10px;
+  color: #040404;
+}
+
+a {
+  color: #efa0c3;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  font-family: monospace;
+  margin-top: 50px;
+  color: #040404;
+}

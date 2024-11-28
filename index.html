@@ -3,28 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles.css"></link>
     <title>Haiku Generator</title>
   </head>
-  <body>
-    <header>
+   <body>
+  <div class="container">
+  <header>
     <h1>Haiku Generator</h1>
 </header>
-
 <main>
 <form>
-    <input type="text" required autofocus autocomplete="off" placeholder="Enter your topic here"/>
-    <input type="submit"/>
-    <div>
+    <input type="text" required autocomplete="off" placeholder="Enter your topic here" class="input"/>
+    <input type="submit" class="submit_button"/>
+    </form>
+    <div class="haiku">
         change is like a river, </br>
         nothing the same</br>
         even for an instant</br>
     </div>
-</form>
+
 
 </main>
     <footer>This AI Project was coded by <a href="https://github.com/janeyBee" target="_blank">Jane Bredius</a>, is open-sourced on <a href="https://github.com/"target="_blank">GitHub</a> & is hosted on <a href="https://jabshaikugenerator.netlify.app/"target="_blank">Netlify</a></footer>
     <script src="src/index.js">
     </script>
+
+    </div>
   </body>
+
 </html>
