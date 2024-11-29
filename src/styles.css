@@ -1,7 +1,6 @@
 .background_image {
   background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/151/619/original/cherryblossom.jpg?1732797226');
-  background-size: 600;
-  background-position: 0;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -52,10 +51,10 @@ form {
 }
 
 .haiku {
+  text-align: right;
   font-size: 16px;
   padding: 20px;
   line-height: 1.5;
-  margin-left: 10px;
   color: #040404;
 }
 
@@ -68,6 +67,6 @@ footer {
   font-size: 9px;
   background: rgba(255, 255, 255, 0.3);
   font-family: monospace;
-  margin-top: 50px;
+  margin-top: 30px;
   color: #040404;
 }
