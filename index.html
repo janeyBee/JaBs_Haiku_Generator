@@ -3,32 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>   
+<script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap" rel="stylesheet">
- <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>   
 <link rel="stylesheet" href="src/styles.css"></link>
     <title>Haiku Generator</title>
   </head>
    <body>
-  <div class="background_image">
+
   <div class="container">
-        
   <header>
     <h1>Haiku Generator</h1>
 </header>
 <main>
-<form id="haiku_generator">
-    <input type="text" required autocomplete="off" placeholder="Enter your topic here" class="input"/>
+<form id="haiku_form">
+    <input type="text" required autocomplete="off" placeholder="Enter your topic here" class="input" id="userInput"/>
     <input type="submit" class="submit_button"/>
-    </form>
-    <div class="haiku" id="haiku">
-        </br>
-        </br>
-        </br>
-    </div>
+</form>
 
+<div class="haiku" id="haiku">
+  </div>
 
 </main>
     <footer>This AI Assisted project was coded by <a href="https://github.com/janeyBee" target="_blank">Jane Bredius</a>, is open-sourced on <a href="https://github.com/"target="_blank">GitHub</a> & is hosted on <a href="https://jabshaikugenerator.netlify.app/"target="_blank">Netlify</a></footer>
@@ -36,7 +33,7 @@
     </script>
 
     </div>
-    </div>
+  
   </body>
 
 </html>

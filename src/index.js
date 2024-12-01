@@ -1,13 +1,13 @@
 function runHaiku(event) {
   event.preventDefault();
 
-  new Typewriter('#haiku', {
-    strings: 'change is like a river,',
+  new Typewriter("#haiku", {
+    strings: "What will you do with your one magnificent life?",
     autoStart: true,
-    delay: 75,
-    cursor: null,
+    delay: 55,
+    cursor: "",
   });
 }
 
-let haikuFormElement = document.querySelector('#haiku_generator');
-haikuFormElement.addEventListener('submit', runHaiku);
+let haikuformElement = document.querySelector("#haiku_form");
+haikuformElement.addEventListener("submit", runHaiku);
