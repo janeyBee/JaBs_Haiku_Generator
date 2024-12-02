@@ -1,13 +1,12 @@
 function displayHaiku(response) {
-  console.log("Haiku generated");
-
-  new Typewriter("#haiku", {
-    strings: response.data.answer,
-    autoStart: true,
-    pausefor: 1,
-    delay: 55,
-    cursor: "",
-  });
+  setTimeout(() => {
+    new Typewriter("#haiku", {
+      strings: response.data.answer,
+      autoStart: true,
+      delay: 55,
+      cursor: "",
+    });
+  }, 2000); // 2000 milliseconds = 2 seconds
 }
 
 function runHaiku(event) {
@@ -24,10 +23,6 @@ function runHaiku(event) {
     delay: 1,
     cursor: "",
   });
-
-  console.log("Generating Haiku");
-  console.log(`prompt is ${prompt}`);
-  console.log(`context is ${context}`);
 
   axios.get(apiURL).then(displayHaiku);
 }

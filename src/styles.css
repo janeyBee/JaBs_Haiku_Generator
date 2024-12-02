@@ -1,9 +1,12 @@
 .body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/151/619/original/cherryblossom.jpg?1732797226");
   background-repeat: no-repeat;
-  max-width: 600px;
-  display: block;
-  margin: 0 auto;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -17,7 +20,7 @@ header {
   font-weight: 800;
   font-size: 32px;
   margin: 30px;
-  text-align: center;
+  text-align: right;
 }
 
 .form_container {
@@ -34,21 +37,20 @@ form {
   color: #a54870;
   padding: 30px;
   margin-top: 30px;
-  margin-left: 200px;
-  opacity: 80%;
+  opacity: 50%;
+  font-weight: 800;
 }
 
 .input {
   padding: 16px;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.6);
   border: 1px rgba(34 33 66 0.5);
   line-height: 1.5;
   font-family: "Nanum Brush Script", cursive;
-  font-size: 32px;
+  font-size: 26px;
   color: #040404;
   border-radius: 50px;
   width: 80%;
-  text-align: center;
 }
 
 .submit_button {
@@ -61,20 +63,28 @@ form {
   width: 150px;
   background-color: #efa0c3;
   color: #fff;
+  transition: all 150ms ease-in-out;
 }
+
+.submit_button:hover {
+  background: #a54870;
+  color: #fff;
+  cursor: pointer;
+}
+
 .waiting {
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .typewriter_wrapper {
   margin-top: 5px;
 }
+
 .haiku {
   font-size: 16px;
   padding: 0px 20px;
   line-height: 1.5;
   color: #040404;
-  text-align: right;
 }
 
 .haiku strong {
