@@ -7,7 +7,7 @@
 }
 
 .container {
-  margin: 50px auto;
+  margin: 30px auto;
   max-width: 600px;
   background: rgba(255, 255, 255, 0.3);
 }
@@ -20,12 +20,22 @@ header {
   text-align: center;
 }
 
-form {
+.form_container {
   padding: 30px;
   border-radius: 10px;
-  display: flex;
   box-shadow: rgba(34 33 66 0.5);
-  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+}
+
+.example_topics {
+  color: #a54870;
+  padding: 30px;
+  margin-top: 30px;
+  margin-left: 200px;
+  opacity: 80%;
 }
 
 .input {
@@ -37,6 +47,7 @@ form {
   color: #040404;
   border-radius: 50px;
   width: 80%;
+  text-align: center;
 }
 
 .submit_button {
@@ -50,10 +61,16 @@ form {
   background-color: #efa0c3;
   color: #fff;
 }
+.waiting {
+  margin-top: 30px;
+}
 
+.typewriter_wrapper {
+  margin-top: 5px;
+}
 .haiku {
   font-size: 16px;
-  padding: 20px;
+  padding: 0px 20px;
   line-height: 1.5;
   color: #040404;
   text-align: right;

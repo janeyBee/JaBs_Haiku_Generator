@@ -19,13 +19,15 @@
     <h1>A Haiku for you</h1>
 </header>
 <main>
+  <div class="form_container">
 <form id="haiku_form">
     <input type="text" required autocomplete="off" placeholder="What is your haiku about?" class="input" id="userInput"/>
     <input type="submit" class="submit_button"/>
 </form>
-
+<small class="example_topics">e.g. snow, love, clouds, dogs</small>
+</div>
+<div id="waiting" class="waiting"></div>
 <div class="haiku" id="haiku">
-
   </div>
 
 </main>
